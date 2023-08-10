@@ -1,0 +1,26 @@
+{
+  "name": "toy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@auth0/auth0-react": "^2.2.0",
+    "@ckeditor/ckeditor5-react": "^6.1.0",
+    "axios": "^1.4.0",
+    "ckeditor5-custom-build": "file:ckeditor",
+    "dotenv": "^16.3.1",
+    "mongodb": "^5.7.0",
+    "next": "^13.4.10",
+    "nookies": "^2.5.2",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2",
+    "semantic-ui-react": "^2.1.4"
+  }
+}
