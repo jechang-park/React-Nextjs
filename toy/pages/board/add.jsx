@@ -18,6 +18,38 @@ const add = () => {
 
 
 
+  const returnCorrectDate = d => {
+    const tempDate = new Date(new Date(d).getTime() + 0);
+    const tempString = tempDate.getFullYear() + '-'
+        + returnDigitDual(tempDate.getMonth() + 1) + '-'
+        + returnDigitDual(tempDate.getDate()) + '('
+        + returnWeek(tempDate.getDay()) + ') '
+        + returnDigitDual(tempDate.getHours()) + ':'
+        + returnDigitDual(tempDate.getMinutes());
+    return tempString;
+}
+const returnWeek = s => {
+    switch (s) {
+        case 0: return "일";
+        case 1: return "월";
+        case 2: return "화";
+        case 3: return "수";
+        case 4: return "목";
+        case 5: return "금";
+        case 6: return "토";
+    }
+}
+const returnDigitDual = n => {
+    if (n < 10) {
+        return "0" + n;
+    } else {
+        return n;
+    }
+}
+
+
+
+
   useEffect(() => {
     setEditorLoaded(true);
   }, []);

@@ -1,0 +1,35 @@
+
+* {
+  color: #333;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -.03em;
+  word-break: keep-all;
+  margin: 0;
+  padding: 0;
+  border: none;
+  position: relative;
+  outline : 1px solid #eee;
+}
+
+li {
+  list-style-type: none;
+}
+
+title,
+script {
+  display: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+script,
+style {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}

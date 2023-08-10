@@ -1,0 +1,101 @@
+
+* {
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -.03em;
+    word-break: keep-all;
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: relative;
+    outline : 1px solid #eee;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  title,
+  script {
+    display: none;
+  }
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  script,
+  style {
+    display: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .textArea {
+    display: flex;
+    justify-content: center;
+  }
+  .textArea form{
+    width:600px;
+    height:400px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .textArea form input{
+   height:50px;
+  }
+  .textArea button{
+    width:600px;
+    height:100px;
+    display: block;
+  }
+  
+  .textArea .text-0{
+    text-align: center;
+    
+  }
+  .textArea .text-1{
+    text-align: center;
+  }
+  .textArea .text-2{
+    text-align: center;
+  }
+  .LoginBox{
+    display: flex;
+    justify-content: center;
+  }
+  .LoginBox form{
+    width:600px;
+    height:400px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .LoginBox form input{
+    height:70px;
+   }
+  .LoginBox button{
+    width:600px;
+    height:50px;
+  }
+  .Login-completed{
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .Login-completed form input{
+  height:70px;
+  }
+  .Login-completed img{
+    width:50px;
+    height:50px;
+    margin-top:20px;
+  }
+  
